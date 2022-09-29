@@ -1,5 +1,4 @@
 .example-container .mat-form-field {
-  margin-left: 8px;
   width: 100%;
 }
 
@@ -18,15 +17,19 @@ input.example-right-align {
 
 app-main:host {
   display: block;
-  margin: 100px;
+  margin: 140px;
 }
 
 .example-container {
   margin: 0;
   background-color: white;
+  box-shadow: 2px 2px 6px black;
+  padding: 5%;
+  border-radius: 2%;
 }
 
 .container {
+  text-align: center;
   margin-left: 30%;
   margin-right: 30%;
   padding-top: 5%;
@@ -35,7 +38,7 @@ app-main:host {
   justify-content: center;
   align-items: center;
   box-shadow: 0px 0px 30px black;
-  background-color: white;
+  background-color: #F4ECF7;
   border-radius: 2%;
 }
 
@@ -49,13 +52,17 @@ app-main:host {
   width: 120px;
 }
 
+.example-container button:hover {
+  opacity: 0.9;
+}
+
 h1 {
   text-align: center;
   font-weight: bold;
 }
 
 .button-center {
-  width: 110px;
-  margin-left: 50%;
+  margin-left: 40%;
+  margin-right: 30%;
   transform: translateX(-50%);
 }

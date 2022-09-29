@@ -17,10 +17,13 @@
       </button>
     </mat-form-field>
 
+
     <br>
+    <a href=""><mat-label>Remember Password</mat-label></a>
+    <br><br>
 
     <div class="button-center">
-      <button mat-raised-button color="primary">Send</button>
+      <button mat-raised-button color="primary" (click)="openSnackBar(message, action)">Send</button>
     </div>
   </div>
 </div>
